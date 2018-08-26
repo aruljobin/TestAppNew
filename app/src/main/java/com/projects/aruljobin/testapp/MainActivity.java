@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         //Log.e("Val",body.getUserName()+":"+body.getUserCity());
         mAdapter = new ItemListAdapter(this, body); // space
         mRecyclerView.setAdapter(mAdapter);
-        Log.e("chk","yes");
+        Log.e("chk","yes pull");
 
     }
 
