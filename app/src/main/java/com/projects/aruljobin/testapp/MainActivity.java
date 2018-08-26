@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void generateDataList(List<ManageItems> body) {
         //Log.e("Val",body.getUserName()+":"+body.getUserCity());
-        mAdapter = new ItemListAdapter(this, body);
+        mAdapter = new ItemListAdapter(this, body); // space
         mRecyclerView.setAdapter(mAdapter);
 
     }
